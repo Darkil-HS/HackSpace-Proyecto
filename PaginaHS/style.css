@@ -1,0 +1,57 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+.nav-link {
+    color: #bbb;
+}
+
+.nav-link:hover {
+    color: #fcbe00
+}
+
+.logo-brand {
+    min-width: 100px;
+    max-width: 130px;
+}
+
+#abeja {
+    justify-content: center;
+    height: auto;
+    width: 550px;
+}
+
+#imgabeja {
+    text-align: center;
+    margin-left: 465px;
+    min-height: 300px;
+    min-width: 100px;
+    margin-bottom: 30px;
+}
+
+#container {
+    justify-content: center;
+    height: auto;
+}
+
+#container h1 {
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#container p {
+    font-size: 24px;
+    color: #989da0;
+}
+
+#container h1,
+p {
+    text-align: center;
+}
