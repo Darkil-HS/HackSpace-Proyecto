@@ -10,9 +10,11 @@ body {
 
 .nav-link {
     color: rgb(121, 121, 121);
+    
 }
 
 .nav-link:hover {
+    transition: ease;
     color: #fcbe00;
     font-size: 23px;
     padding-top: 2px;
