@@ -3,17 +3,24 @@ body {
 }
 
 .navbar {
-    background-color: #ffffff;
+    background-color: #fefefe;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
     min-height: 100px;
 }
 
 .nav-link {
-    color: #bbb;
+    color: rgb(121, 121, 121);
 }
 
 .nav-link:hover {
-    color: #fcbe00
+    color: #fcbe00;
+    font-size: 23px;
+    padding-top: 2px;
+}
+
+.nav-item{
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .logo-brand {
@@ -24,6 +31,7 @@ body {
 #abeja {
     justify-content: center;
     height: auto;
+    padding-top: 15px;
     width: 550px;
 }
 
@@ -32,7 +40,7 @@ body {
     margin-left: 465px;
     min-height: 300px;
     min-width: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 #container {
@@ -46,10 +54,15 @@ body {
     letter-spacing: 2px;
 }
 
+#abeja-container{
+    background-color: #f9f9f9;
+}
+
 #container p {
     font-size: 24px;
-    color: #989da0;
+    color: #5a5a5a;
 }
+
 
 #container h1,
 p {
