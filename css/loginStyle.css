@@ -78,6 +78,10 @@
         align-items: center;
     }
     
+    .btn-success{
+        background-color: rgb(35, 167, 66);
+    }
+
     button span{
         font-size: 18px;
     }

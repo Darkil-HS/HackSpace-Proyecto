@@ -10,7 +10,9 @@ body {
 
 .nav-link {
     color: rgb(121, 121, 121);
-    
+    border-style: none;
+    border: none;
+    border-radius: 0px;
 }
 
 .nav-link:hover {
@@ -18,6 +20,8 @@ body {
     color: #fcbe00;
     font-size: 23px;
     padding-top: 2px;
+    border-style: none;
+    border: none;
 }
 
 .nav-item{
