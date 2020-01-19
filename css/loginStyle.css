@@ -1,5 +1,5 @@
     body {
-        background-color: darkgoldenrod;
+        background-color: #f7f7f7;
     }
     
     .main-section {
@@ -18,8 +18,8 @@
     }
     
     .user-img img {
-        width: 140xp;
-        height: 140px;
+        width: 80xp;
+        height: 80px;
     }
     
     .form-group::before {
