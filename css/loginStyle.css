@@ -2,53 +2,104 @@
         background-color: #f7f7f7;
     }
     
+    .user-img {
+        width: 160px;
+        height: 140px;
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+
     .main-section {
-        margin: auto;
-        margin-top: 25%;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
     }
     
     .modal-content {
         padding: 0px 0px;
         box-shadow: 0px 0px 3px #848484;
+        width: 347px;
+        height: 280px;  
     }
     
-    .user-img {
-        margin-top: 10px;
-        margin-bottom: 35px;
+    #user-group{
+        padding-top: 28px;
+        padding-bottom: 5px;
+        width: 95%;
+        padding-left: 20px;
     }
-    
-    .user-img img {
-        width: 80xp;
-        height: 80px;
+
+    #contrasena-group{
+        padding-top: 0px;
+        padding-bottom: 10px;
+        width: 95%;
+        padding-left: 20px;
     }
     
     .form-group::before {
         font-family: "Font Awesome\ 5 Free";
         position: absolute;
-        left: 28px;
+        left: 50px;
         font-size: 22px;
-        padding-top: 4px;
+        padding-top: 32px;
     }
     
     .form-group#user-group::before {
         content: "\f007";
         border: 1px;
     }
-    
+
     .form-group#contrasena-group::before {
         content: "\f023";
         border: 1px;
     }
+
+    .user{
+        padding-right: 140px;
+        font-family: Arial;
+        font-size: 20px;
+    }
+
+    .psw{
+        font-family: Arial;
+        font-size: 20px;
+    }
+
     
+    .form-control{
+        padding-left: 45px;
+    }
+
     button {
         width: 60%;
-        margin: 5px 0 25px;
+        margin: 0px 0 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
+    button span{
+        font-size: 18px;
+    }
+
     .forgot {
         padding: 5px 0;
     }
     
     .forgot a {
         color: #007bff;
+    }
+
+    .snUser{
+        padding-top: 20px;
+        font-size: 12px;
+    }
+
+    .snUser a{
+        font-size: 11px;
+    }
+
+    .recuperacion {
+        font-size: 11px;
+        padding-left: 45px;
     }
