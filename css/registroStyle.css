@@ -4,5 +4,55 @@ body {
 
 .main-section {
     margin: auto;
-    margin-top: 25%;
+    margin-top: 5%;
+    width: 400px;
+    height: 500px;
+}
+
+.modal-content{
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #f7f7f7;
+    border: none;
+}
+
+.logo{
+    padding-top: 30px;
+    width: 230px;
+    height: 130px;
+}
+
+.titulo{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor-titulo{
+    padding-top: 30px;
+}
+
+.form-check{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.form-check label{
+    font-size: 12px;
+}
+
+.form-check a{
+    font-style: italic;
+    font-size: 12px;
+}
+
+.cont{
+   display: flex;
+   align-items: center;
+}
+
+.contenedor-titulo h1{
+    color:#C9C9C9;
 }
