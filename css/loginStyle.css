@@ -84,7 +84,7 @@
         background-color: rgb(35, 167, 66);
     }
 
-    button span{
+    button label{
         font-size: 18px;
     }
 
@@ -99,6 +99,11 @@
     .snUser{
         padding-top: 20px;
         font-size: 12px;
+    }
+
+    label{
+        padding: 0;
+        margin: 0%;
     }
 
     .snUser a{
