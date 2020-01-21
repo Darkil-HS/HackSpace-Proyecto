@@ -26,7 +26,12 @@
 
 <body>
     <div class="modal-dialog text-center">
-        <img src="../img/hackspace-mini.png" class="logo"/>
+        <div class="modal-content regreso">
+        <a href="../index.html">
+                <img src="../img/hackspace-mini.png" class="logo"/>
+            </a>
+        </div>
+        
         <div class="contenedor-titulo">
             <h1 class="Titulo">Crea tu cuenta</h1>
         </div>
@@ -37,19 +42,28 @@
                     <form>
                         <div class="form-row">
                             <div class="form-group col-md-12">
-                                <div class="cont"><label for="inputEmail4">Nombre de usuario</label></div>   
-                                <input type="email" class="form-control" id="inputEmail4">
+                                <div class="cont">
+                                    <label for="inputEmail4">Nombre de usuario</label>
+                                    <span class="obligatorio">*</span>
+                                </div>   
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="New user">
                             </div>
 
                             <div class="form-group col-md-12">
-                                <div class="cont"><label for="inputPassword4">Correo electronico</label></div>
-                                <input type="password" class="form-control" id="inputPassword4">
+                                <div class="cont">
+                                    <label for="inputPassword4">Correo electronico</label>
+                                    <span class="obligatorio">*</span>
+                                </div>
+                                <input type="password" class="form-control" id="inputPassword4" placeholder="Example@hotmail.com">
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <div class="cont"><label for="inputAddress">Contraseña</label></div>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="********">
+                            <div class="cont">
+                                <label for="inputAddress">Contraseña</label>
+                                <span class="obligatorio">*</span>
+                            </div>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="**************">
                         </div>
                 
                         <div class="form-group">
@@ -60,7 +74,7 @@
                                     </label>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary">Ingresar</button>
+                        <button type="submit" class="btn btn-primary">Registrar</button>
                     </form>
 
                 </div>
