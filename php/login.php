@@ -4,7 +4,7 @@
 
     if($user=='Marco' && $psw=='123')
     {
-        header('location:../html5/perfil.html');
+        header('location:https://darkil-hs.github.io/HackSpace-Proyecto/php/login.php');
     }
     else
     {
